@@ -22,12 +22,15 @@ def take_a_number (katz_deli, name)
 end
 
 def now_serving(katz_deli, name)
-  if katz_deli == 0 
-    puts "There is nobody waiting to be served!"
-  else
-    puts "Currently serving #{name}."
-    katz_deli.shift()
-   end 
+  katz_deli << name
+  
+  #if katz_deli == 0 
+  #  puts "There is nobody waiting to be served!"
+  #else
+   # puts "Currently serving #{name}."
+    #katz_deli.shift()
+   #end 
+end
     
   katz_deli.first
     puts "Currently serving #{name}."
