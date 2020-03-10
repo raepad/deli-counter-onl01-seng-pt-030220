@@ -7,12 +7,12 @@ def line(katz_deli)
   else
     katz_deli.each_with_index(1) do |name, index|
       line_position.push("#{index}. #{name}")
-      #<< "#{counter}. #{name}"
     end
     "The line is currently: " << "#{line_position.join}"
   end
 end
 
+ #<< "#{counter}. #{name}"
 def take_a_number (katz_deli, name)
   katz_deli << "#{name}"
   katz_deli.each_with_index do |name, index|
