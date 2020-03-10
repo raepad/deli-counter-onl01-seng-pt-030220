@@ -10,7 +10,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number (katz_deli, name)
+def take_a_number (katz_deli)
   katz_deli << name
   katz_deli.each_with_index do |name, index|
     puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
