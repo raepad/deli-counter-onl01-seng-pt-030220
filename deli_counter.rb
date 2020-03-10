@@ -10,7 +10,6 @@ def line(katz_deli)
   end
 end
 
- #<< "#{counter}. #{name}"
 def take_a_number (katz_deli, name)
   katz_deli << "#{name}"
   katz_deli.each_with_index do |name, index|
