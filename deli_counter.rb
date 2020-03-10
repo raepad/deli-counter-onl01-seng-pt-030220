@@ -31,11 +31,12 @@ def now_serving(katz_deli, name)
    # puts "Currently serving #{name}."
     #katz_deli.shift()
    #end 
-    
-  katz_deli.first
-    puts "Currently serving #{name}."
-  katz_deli.shift()
-  if katz_deli.length == 0
+  if katz_deli.length == 0 
     puts "There is nobody waiting to be served!"
+  elsif katz_deli.length >= 1 
+    puts "Currently serving #{name}."
+    katz_deli.shift()
+  else
+    nil 
   end
 end
