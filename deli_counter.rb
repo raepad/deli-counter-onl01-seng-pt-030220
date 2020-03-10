@@ -21,6 +21,7 @@ def now_serving(katz_deli)
   else
     katz_deli.each.first do |name|
       puts "Currently serving #{name}."
+    end
     katz_deli.shift()
   end
 end
