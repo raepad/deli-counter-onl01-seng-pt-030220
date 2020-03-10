@@ -23,7 +23,7 @@ end
 
 def now_serving(katz_deli, name)
   katz_deli << name
-  puts "Welcome #{name}"
+  puts "Welcome #{name}. "
   #if katz_deli == 0 
   #  puts "There is nobody waiting to be served!"
   #else
