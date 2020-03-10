@@ -1,5 +1,3 @@
-katz_deli = []
-
 def line(random)
   line_position = []
   if katz_deli.length == 0 
